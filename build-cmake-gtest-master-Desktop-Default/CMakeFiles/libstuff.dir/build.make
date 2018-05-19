@@ -57,38 +57,38 @@ include CMakeFiles/libstuff.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/libstuff.dir/flags.make
 
-CMakeFiles/libstuff.dir/src/example.cpp.o: CMakeFiles/libstuff.dir/flags.make
-CMakeFiles/libstuff.dir/src/example.cpp.o: /home/user/Documents/Day7/cmake-gtest-master/src/example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/Day7/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libstuff.dir/src/example.cpp.o"
-	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libstuff.dir/src/example.cpp.o -c /home/user/Documents/Day7/cmake-gtest-master/src/example.cpp
+CMakeFiles/libstuff.dir/src/exceptions.cpp.o: CMakeFiles/libstuff.dir/flags.make
+CMakeFiles/libstuff.dir/src/exceptions.cpp.o: /home/user/Documents/Day7/cmake-gtest-master/src/exceptions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Documents/Day7/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/libstuff.dir/src/exceptions.cpp.o"
+	/usr/bin/g++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/libstuff.dir/src/exceptions.cpp.o -c /home/user/Documents/Day7/cmake-gtest-master/src/exceptions.cpp
 
-CMakeFiles/libstuff.dir/src/example.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libstuff.dir/src/example.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/Day7/cmake-gtest-master/src/example.cpp > CMakeFiles/libstuff.dir/src/example.cpp.i
+CMakeFiles/libstuff.dir/src/exceptions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/libstuff.dir/src/exceptions.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Documents/Day7/cmake-gtest-master/src/exceptions.cpp > CMakeFiles/libstuff.dir/src/exceptions.cpp.i
 
-CMakeFiles/libstuff.dir/src/example.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libstuff.dir/src/example.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/Day7/cmake-gtest-master/src/example.cpp -o CMakeFiles/libstuff.dir/src/example.cpp.s
+CMakeFiles/libstuff.dir/src/exceptions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/libstuff.dir/src/exceptions.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Documents/Day7/cmake-gtest-master/src/exceptions.cpp -o CMakeFiles/libstuff.dir/src/exceptions.cpp.s
 
-CMakeFiles/libstuff.dir/src/example.cpp.o.requires:
+CMakeFiles/libstuff.dir/src/exceptions.cpp.o.requires:
 
-.PHONY : CMakeFiles/libstuff.dir/src/example.cpp.o.requires
+.PHONY : CMakeFiles/libstuff.dir/src/exceptions.cpp.o.requires
 
-CMakeFiles/libstuff.dir/src/example.cpp.o.provides: CMakeFiles/libstuff.dir/src/example.cpp.o.requires
-	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/example.cpp.o.provides.build
-.PHONY : CMakeFiles/libstuff.dir/src/example.cpp.o.provides
+CMakeFiles/libstuff.dir/src/exceptions.cpp.o.provides: CMakeFiles/libstuff.dir/src/exceptions.cpp.o.requires
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/exceptions.cpp.o.provides.build
+.PHONY : CMakeFiles/libstuff.dir/src/exceptions.cpp.o.provides
 
-CMakeFiles/libstuff.dir/src/example.cpp.o.provides.build: CMakeFiles/libstuff.dir/src/example.cpp.o
+CMakeFiles/libstuff.dir/src/exceptions.cpp.o.provides.build: CMakeFiles/libstuff.dir/src/exceptions.cpp.o
 
 
 # Object files for target libstuff
 libstuff_OBJECTS = \
-"CMakeFiles/libstuff.dir/src/example.cpp.o"
+"CMakeFiles/libstuff.dir/src/exceptions.cpp.o"
 
 # External object files for target libstuff
 libstuff_EXTERNAL_OBJECTS =
 
-liblibstuff.a: CMakeFiles/libstuff.dir/src/example.cpp.o
+liblibstuff.a: CMakeFiles/libstuff.dir/src/exceptions.cpp.o
 liblibstuff.a: CMakeFiles/libstuff.dir/build.make
 liblibstuff.a: CMakeFiles/libstuff.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Documents/Day7/build-cmake-gtest-master-Desktop-Default/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblibstuff.a"
@@ -100,7 +100,7 @@ CMakeFiles/libstuff.dir/build: liblibstuff.a
 
 .PHONY : CMakeFiles/libstuff.dir/build
 
-CMakeFiles/libstuff.dir/requires: CMakeFiles/libstuff.dir/src/example.cpp.o.requires
+CMakeFiles/libstuff.dir/requires: CMakeFiles/libstuff.dir/src/exceptions.cpp.o.requires
 
 .PHONY : CMakeFiles/libstuff.dir/requires
 

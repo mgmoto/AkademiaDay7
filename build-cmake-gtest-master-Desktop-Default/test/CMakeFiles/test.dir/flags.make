@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/user/Documents/Day7/cmake-gtest-master/src 
+CXX_INCLUDES = -I/home/user/Documents/Day7/cmake-gtest-master/src -isystem /home/user/Documents/Day7/build-cmake-gtest-master-Desktop-Default/lib/gtest/gtest/src/gtest/googletest/include 
 

@@ -143,6 +143,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/user/Documents/Day7/cmake-gtest-master/src"/>
+					<Add directory="/home/user/Documents/Day7/build-cmake-gtest-master-Desktop-Default/lib/gtest/gtest/src/gtest/googletest/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
@@ -165,6 +166,7 @@
 				<Option compiler="gcc"/>
 				<Compiler>
 					<Add directory="/home/user/Documents/Day7/cmake-gtest-master/src"/>
+					<Add directory="/home/user/Documents/Day7/build-cmake-gtest-master-Desktop-Default/lib/gtest/gtest/src/gtest/googletest/include"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
 					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
@@ -180,10 +182,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/user/Documents/Day7/cmake-gtest-master/src/example.cpp">
-			<Option target="libstuff"/>
-		</Unit>
-		<Unit filename="/home/user/Documents/Day7/cmake-gtest-master/src/example.hpp">
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-master/src/exceptions.cpp">
 			<Option target="libstuff"/>
 		</Unit>
 		<Unit filename="/home/user/Documents/Day7/cmake-gtest-master/src/main.cpp">

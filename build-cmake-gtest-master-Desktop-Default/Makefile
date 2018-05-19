@@ -162,32 +162,32 @@ test/fast:
 	$(MAKE) -f test/CMakeFiles/test.dir/build.make test/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
-src/example.o: src/example.cpp.o
+src/exceptions.o: src/exceptions.cpp.o
 
-.PHONY : src/example.o
+.PHONY : src/exceptions.o
 
 # target to build an object file
-src/example.cpp.o:
-	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/example.cpp.o
-.PHONY : src/example.cpp.o
+src/exceptions.cpp.o:
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/exceptions.cpp.o
+.PHONY : src/exceptions.cpp.o
 
-src/example.i: src/example.cpp.i
+src/exceptions.i: src/exceptions.cpp.i
 
-.PHONY : src/example.i
+.PHONY : src/exceptions.i
 
 # target to preprocess a source file
-src/example.cpp.i:
-	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/example.cpp.i
-.PHONY : src/example.cpp.i
+src/exceptions.cpp.i:
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/exceptions.cpp.i
+.PHONY : src/exceptions.cpp.i
 
-src/example.s: src/example.cpp.s
+src/exceptions.s: src/exceptions.cpp.s
 
-.PHONY : src/example.s
+.PHONY : src/exceptions.s
 
 # target to generate assembly for a file
-src/example.cpp.s:
-	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/example.cpp.s
-.PHONY : src/example.cpp.s
+src/exceptions.cpp.s:
+	$(MAKE) -f CMakeFiles/libstuff.dir/build.make CMakeFiles/libstuff.dir/src/exceptions.cpp.s
+.PHONY : src/exceptions.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -228,9 +228,9 @@ help:
 	@echo "... libstuff"
 	@echo "... gtest"
 	@echo "... test"
-	@echo "... src/example.o"
-	@echo "... src/example.i"
-	@echo "... src/example.s"
+	@echo "... src/exceptions.o"
+	@echo "... src/exceptions.i"
+	@echo "... src/exceptions.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
