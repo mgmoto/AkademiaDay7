@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/cmake-gtest-master.dir/main.cpp.o  -o cmake-gtest-master 
