@@ -37,7 +37,7 @@ void simple() {
 struct MyException : std::exception {
     MyException() = default;
     MyException(const MyException& other) {
-        std::cout << "MyException: copy ctor" << std::endl;
+        std::cout << "MyException: copy constructor" << std::endl;
     }
     const char* what() const noexcept override { return "My exception!"; }
 };
@@ -47,7 +47,7 @@ void wrong_order_value() {
     Loud a{"Ala"};
     try {
         throw MyException{};
-    } catch (std::exception e) { // matches and makes a copy
+    } catch (std::exception e) { // matches and makes a copy  - sclicing         // kopiowane gdzies na bok, ktore nie zostanie zniszczone przy odwijaniu stosu
         std::cout << "std::exception: " << e.what() << std::endl;
     } catch (MyException e) {    // matches better, but too late
         std::cout << "MyException: " << e.what() << std::endl;
@@ -119,7 +119,7 @@ int h() {
         std::cout << "h(): cought std::exception saying: " << e.what() << std::endl;
         std::cout << "Rethrowing..." << std::endl;
         throw; // try changing to throw e; - what happens?
-    }
+    }          // throw e - zrobiona zostanie kopia obiektu, ktory bedzie typu std::exeption a nie MyExeption
 }
 
 int k() {
@@ -134,12 +134,31 @@ int k() {
     }
 }
 
+/*
+struct A {
+    std::string a;
+    A() try : a{"adda"}
+    {
+    }
+    catch (...) {
+        // throw
+    }
+};
+*/
+
+/*
+int f() try{
+    //...
+} catch (...) {
+    //...
+}
+*/
 
 int main() {
     // simple();
-    // wrong_order_value();
+    //wrong_order_value();
     // wrong_order_reference();
-    // right_order_value();
+     //right_order_value();
     // wrong_order_pointers();
     k();
 }
