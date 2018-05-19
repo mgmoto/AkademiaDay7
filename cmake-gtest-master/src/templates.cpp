@@ -5,6 +5,11 @@ T max(T a, T b) {
     return a < b ? b : a;
 }
 
+template <typename T>
+T* max(T* a, T* b) {
+    return *a < *b ? b : a;
+}
+
 // Overload
 int max(int a, int b) {
     return 3;
@@ -23,6 +28,8 @@ template double max(double, double);
 // "Don't generate here, I promise it is elsewhere"
 extern template float max(float, float);
 
+
+//**************************************************
 
 // Non-type params
 template <typename T, int N>
@@ -83,6 +90,32 @@ void D<T>::f() { }
 
 #define MAX(a,b) ( a < b ? b : a)
 #define MAX(a,b) ((a) < (b) ? (b) : (a))
+
+template <typename T>
+
+class Vector{
+    T* buf;
+public:
+    Vector(int n):buf{new T[n]}
+    {}
+
+    ~Vector () {delete buf;}
+
+    T& operator[](int a) { return buf[a];}
+    // operator [](Vector&, int)
+    const T& operator[] (int a) const { return buf[a];}
+    // operator [](const Vector&, int)
+
+};
+
+void f(Vector<int>& v){
+    v[3];
+    //operator[] (v,3);
+}
+
+void f(const Vector<int>& v){
+    v[3]=9;
+}
 
 int main() {
 
