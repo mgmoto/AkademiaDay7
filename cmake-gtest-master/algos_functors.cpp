@@ -68,13 +68,23 @@ void ex2() {
     B b;
     std::sort(v.begin(), v.end(), B{});          // idea w algorytmie sort jak we wzorcu strategia
     print(v);                               // bo chcemy posortowac, ale parametrami mozemy wybrac jak posortowac
-
-
-
-
-
-
 }
+//---------------------------------------------
+// SITO ARYSTOTELESA ZROBIC TYLE ILE SIE DA ZA POMOCA BIBLIOTEKI ALGORYTHM
+std::vector<int>primes(int n)
+{
+    std::vector<int> v(n-1);
+    std::generate_n(v.begin(), n-1, [i=2]()mutable {return i++;});
+
+    std::remove_if(v.begin(),v.end(), [i=2]()mutable {})
+
+
+    return v;
+}
+
+
+
+
 //---------------------------------------------
 
 void example() {
@@ -129,4 +139,5 @@ void example() {
 
 int main() {
     example();
+    print(primes(50));
 }

@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="refactoring"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\gtest\;CMake Files\..\;CMake Files\..\build-cmake-gtest-refactor-Desktop-Default\;CMake Files\..\build-cmake-gtest-refactor-Desktop-Default\lib\;CMake Files\..\build-cmake-gtest-refactor-Desktop-Default\lib\gtest\;CMake Files\..\build-cmake-gtest-refactor-Desktop-Default\lib\gtest\gtest\;CMake Files\..\build-cmake-gtest-refactor-Desktop-Default\lib\gtest\gtest\tmp\;CMake Files\test\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libcompany">
+				<Option output="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/liblibcompany.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/Documents/Day7/cmake-gtest-refactor/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 libcompany"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libcompany/fast">
+				<Option output="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/liblibcompany.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/Documents/Day7/cmake-gtest-refactor/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 libcompany/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main">
+				<Option output="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/Documents/Day7/cmake-gtest-refactor/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 main"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="main/fast">
+				<Option output="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/main" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/Documents/Day7/cmake-gtest-refactor/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 main/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gtest">
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runTest">
+				<Option output="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/runTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/Documents/Day7/cmake-gtest-refactor/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 runTest"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="runTest/fast">
+				<Option output="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/runTest" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/user/Documents/Day7/cmake-gtest-refactor/src"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/x86_64-redhat-linux"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/../../../../include/c++/6.4.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-redhat-linux/6.4.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 runTest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j4 -f &quot;/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Contact.cpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Contact.hpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Database.cpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Database.hpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Employee.cpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Employee.hpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/PersonData.cpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/PersonData.hpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Report.cpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/Report.hpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/main.cpp">
+			<Option target="main"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/work.cpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/src/work.hpp">
+			<Option target="libcompany"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/test/Database.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/test/Employee.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/test/PersonData.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/test/Report.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/test/main.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/test/work.cpp">
+			<Option target="runTest"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/lib/gtest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\gtest\"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/../build-cmake-gtest-refactor-Desktop-Default/lib/gtest/gtest/tmp/gtest-cfgcmd.txt.in">
+			<Option virtualFolder="CMake Files\..\build-cmake-gtest-refactor-Desktop-Default\lib\gtest\gtest\tmp\"/>
+		</Unit>
+		<Unit filename="/home/user/Documents/Day7/cmake-gtest-refactor/test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\test\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

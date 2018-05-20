@@ -1,0 +1,13 @@
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/CMakeFiles/rebuild_cache.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/CMakeFiles/libcompany.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/CMakeFiles/main.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/CMakeFiles/edit_cache.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/CMakeFiles/test.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/CMakeFiles/rebuild_cache.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/CMakeFiles/edit_cache.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/CMakeFiles/test.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/lib/gtest/CMakeFiles/gtest.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/CMakeFiles/rebuild_cache.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/CMakeFiles/edit_cache.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/CMakeFiles/test.dir
+/home/user/Documents/Day7/build-cmake-gtest-refactor-Desktop-Default/test/CMakeFiles/runTest.dir
